@@ -4,7 +4,7 @@ Wayland protocols designed for use in wlroots (and other compositors).
 
 ## Submitting changes to existing protocols
 
-Please submit a pull request on GitHub.
+Please submit a merge request on GitLab.
 
 ## Submitting new protocols
 

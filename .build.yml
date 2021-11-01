@@ -2,7 +2,7 @@ image: archlinux
 packages:
   - wayland
 sources:
-  - https://github.com/swaywm/wlr-protocols
+  - https://gitlab.freedesktop.org/wlroots/wlr-protocols.git
 tasks:
   - protocols: |
       cd wlr-protocols
