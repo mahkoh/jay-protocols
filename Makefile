@@ -10,8 +10,8 @@ unstable_protocols = \
 	unstable/wlr-output-power-management-unstable-v1.xml \
 	unstable/wlr-screencopy-unstable-v1.xml
 
-check:
-	./check.sh
+check: $(unstable_protocols)
+	./check.sh $(unstable_protocols)
 
 clean:
 	rm -f wlr-protocols.pc
